@@ -48,7 +48,7 @@ function showMenu(){
 
 function countdown() {
     let now = new Date();
-    let eventDate = new Date(2021, 12, 31);
+    let eventDate = new Date(2022, 12, 31);
     let currentTime = now.getTime();
     let eventTime = eventDate.getTime();
     let remTime = eventTime - currentTime;
